@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Survey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This is A POC project to learn Survey Js with react. It's basic project for self learning
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contact Information](#contact-information)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+### Using Npm
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+# Example
+git clone https://github.com/kcs-vishnumahindalekar/SurveyJS_POC.git
+cd surveyjs-app
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Using Yarn
+
+```bash
+# Example
+git clone https://github.com/kcs-vishnumahindalekar/SurveyJS_POC.git
+cd surveyjs-app
+yarn install
+```
+
+## Usage
+
+### Using Npm
+
+```bash
+# Example
+npm start dev
+```
+
+### Using Yarn
+
+```bash
+# Example
+yarn dev
+```
+
+###Running the Survey
+
+- After starting the application, navigate to [http://localhost:3000](http://localhost:5173/) in your browser.
+- Follow the on-screen instructions to create and complete surveys.
+
+## Features
+
+- Create and customize surveys using SurveyJS
+- Preview and test survey forms
+- Save and load survey data
+
+## Contact Information
+
+Vishnu Mahindalekar - vishnu.mahindalekar@rysun.com
+
+Project Link: [https://github.com/kcs-vishnumahindalekar/SurveyJS_POC](https://github.com/kcs-vishnumahindalekar/SurveyJS_POC)
